@@ -14,6 +14,22 @@
   <link href="images/favicon.svg" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.svg" rel="apple-touch-icon">
   <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+
+    .ty-header {
+      display: flex;
+      align-items: center;
+      padding: 20px 40px;
+      background: #ffffff;
+      border-bottom: 1px solid #eaecf0;
+    }
+    .ty-header img {
+      height: 48px;
+      width: auto;
+      display: block;
+    }
+
     .thankyou-section {
       min-height: 70vh;
       display: flex;
@@ -21,6 +37,7 @@
       justify-content: center;
       text-align: center;
       padding: 80px 24px;
+      background: #ffffff;
     }
     .thankyou-box {
       max-width: 520px;
@@ -50,15 +67,9 @@
   </style>
 </head>
 <body>
-  <section class="hero-section">
-    <div class="nav-holder">
-      <div class="rl_navbar1_component">
-        <div class="rl_navbar1_container">
-          <a href="index.html" class="rl_navbar1_logo-link"><img src="images/Frame-1707480895.svg" loading="lazy" alt="" class="rl_navbar1_logo"></a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <header class="ty-header">
+    <a href="index.html"><img src="images/Frame-1707480895.svg" loading="lazy" alt="Nav Hindustan Spinners"></a>
+  </header>
 
   <section class="thankyou-section">
     <div class="thankyou-box">
